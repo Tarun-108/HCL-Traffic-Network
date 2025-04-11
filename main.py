@@ -13,9 +13,9 @@ from utils.traci_helpers import get_observation_for_tls as get_observation, get_
 
 # Configure SUMO
 SUMO_BINARY = "sumo-gui"  # or "sumo"
-NET_FILE = "sumo_network/network.net.xml"
-ROUTE_FILE = "sumo_network/routes.rou.xml"
-ADDITIONAL_FILES = "sumo_network/tls.add.xml"
+NET_FILE = "sumo_network_4points/network.net.xml"
+ROUTE_FILE = "sumo_network_4points_4points/routes.rou.xml"
+ADDITIONAL_FILES = "sumo_network_4points/tls.add.xml"
 SUMO_CMD = [SUMO_BINARY, "-n", NET_FILE, "-r", ROUTE_FILE, "-a", ADDITIONAL_FILES, "--step-length", "0.5", "--start"]
 
 os.makedirs("results/logs", exist_ok=True)
