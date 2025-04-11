@@ -1,0 +1,29 @@
+<additional>
+    <tlLogic id="A0" type="static" programID="custom" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+
+    <tlLogic id="A1" type="static" programID="custom" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+
+    <tlLogic id="B0" type="static" programID="custom" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+
+    <tlLogic id="B1" type="static" programID="custom" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+</additional>
