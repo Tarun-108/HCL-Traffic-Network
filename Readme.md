@@ -79,13 +79,15 @@ Activate the virtual environment (if using myenv):
 
 ```bash
 .\myenv\Scripts\activate
-Run the main simulation script (modify as needed):
 ```
+Run the main simulation script (modify as needed):
+
 
 ```bash
 python main.py
-Check results in the RESULTS/logs/ and RESULTS/plots/ folders.
 ```
+Check results in the RESULTS/logs/ and RESULTS/plots/ folders.
+
 
 ## 📈 Evaluation
 
