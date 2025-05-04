@@ -1,0 +1,54 @@
+<additional>
+    <!-- Dynamic traffic lights for learning -->
+    <tlLogic id="B1" type="static" programID="dyn" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="B2" type="static" programID="dyn" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="C1" type="static" programID="dyn" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="C2" type="static" programID="dyn" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    
+    <!-- Static traffic lights for learning -->
+    <tlLogic id="A1" type="static" programID="static" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="A2" type="static" programID="static" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="D1" type="static" programID="static" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+    <tlLogic id="D2" type="static" programID="static" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5"  state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5"  state="ryry"/>
+    </tlLogic>
+</additional>
+    
